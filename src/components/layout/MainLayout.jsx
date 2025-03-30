@@ -1,12 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const MainLayout = ({ children }) => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen min-w-screen bg-zinc-950 relative">
       {/* Add your header, navigation, etc. here */}
-      <main className="container mx-auto px-4">
-        {children}
-      </main>
+      {children}
       {/* Add your footer here */}
     </div>
   );
